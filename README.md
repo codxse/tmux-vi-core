@@ -10,7 +10,6 @@ My personal core tmux configuration as a plugin. It sets up sensible defaults an
 - Automatically renumbers windows.
 - Enables 24-bit True Color.
 - Sets copy mode keys to `vi`.
-- Adds `v`, `C-v`, and `y` keybindings for selection and yanking, just like in Vim.
 
 ### Installation
 

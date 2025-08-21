@@ -41,10 +41,10 @@ tmux set-window-option -g mode-keys vi
 
 # Set custom keybindings for Vi copy mode to mimic Vim.
 # 'v' begins a selection (like visual mode in Vim).
-tmux bind-key -T copy-mode-vi v send-keys -X begin-selection
+# tmux bind-key -T copy-mode-vi v send-keys -X begin-selection
 
 # 'Ctrl-v' begins a rectangular/block selection.
-tmux bind-key -T copy-mode-vi C-v send-keys -X rectangle-toggle
+# tmux bind-key -T copy-mode-vi C-v send-keys -X rectangle-toggle
 
 # 'y' copies the selection (yanks it) and exits copy mode.
 # tmux bind-key -T copy-mode-vi y send-keys -X copy-selection-and-cancel
