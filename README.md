@@ -21,7 +21,3 @@ Add this plugin to your `.tmux.conf`:
 ```tmux
 set -g @plugin 'codxse/tmux-vi-core'
 ```
-
-```
-
-```
